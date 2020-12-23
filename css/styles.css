@@ -118,12 +118,12 @@ p{
 
 
 #features{
-    padding: 7% 15%;
+    padding: 10% 15% 6% 15%;
 }
 
 .feature-box{
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -135,4 +135,48 @@ p{
 
 .icon:hover{
     color: #ff4c68;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #fa9579;
+    text-align: center;
+
+
+
+}
+
+#press{
+    background-color: #fa9579;
+    text-align: center;
+
+
+
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 4rem;
+    color: aliceblue;
+    line-height: 5rem;
+
+}
+
+em{
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+.dog1-img{
+    width: 10%;
+    border-radius: 100%;
+    /* size: 4rem; */
+    margin: 2rem;
+
+}
+
+
+.brands{
+    padding: 0 2rem 4rem 0;
 }
