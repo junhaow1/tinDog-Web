@@ -16,6 +16,10 @@
 }
 
 
+.collapse{
+    margin-left: 18rem;
+}
+
 .navbar{
     padding-top: 0;
     padding-bottom: 8rem;
@@ -142,9 +146,9 @@ p{
     background-color: #fa9579;
     text-align: center;
 
-
-
 }
+
+
 
 .carousel-inner{
     padding: 7% 15%;
@@ -197,4 +201,41 @@ em{
 
 .brands{
     padding: 0 2rem 4rem 0;
+}
+
+
+
+/* pricing section */
+
+.price-title{
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+#pricing{
+    /* padding: 7% 15%; */
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+.card-body{
+    padding: 2rem 2 rem;
+    margin: 2rem 2 rem;
+}
+
+/* 
+.h3-price-title{
+    background-color: gray;
+} */
+
+
+/* .card{
+    padding: 3rem 3rem;
+} */
+
+
+.row{
+    padding-top: 4rem;
 }
