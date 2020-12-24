@@ -138,10 +138,16 @@ p{
 }
 
 #testimonials{
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     background-color: #fa9579;
     text-align: center;
 
+
+
+}
+
+.carousel-inner{
+    padding: 7% 15%;
 
 
 }
@@ -158,8 +164,13 @@ h2{
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 4rem;
-    color: aliceblue;
     line-height: 5rem;
+
+}
+
+.testimonial-text{
+    color: aliceblue;
+
 
 }
 
@@ -172,6 +183,13 @@ em{
     width: 10%;
     border-radius: 100%;
     /* size: 4rem; */
+    margin: 2rem;
+
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
     margin: 2rem;
 
 }
