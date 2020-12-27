@@ -81,6 +81,8 @@ body{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    /* z-index: -1;
+    position: absolute; */
 }
 
 
@@ -123,6 +125,8 @@ p{
 
 #features{
     padding: 10% 15% 6% 15%;
+    /* position: absolute;
+    z-index: 1; */
 }
 
 .feature-box{
@@ -238,4 +242,56 @@ em{
 
 .row{
     padding-top: 4rem;
+}
+
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 4rem;
+
+}
+
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    line-height: 3rem;
+    padding-top: 4rem;
+
+
+}
+
+
+#footer{
+    text-align: center;
+}
+
+.contact-icon{
+    padding-top: 6rem;
+}
+
+.icon2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.copyright{
+    padding-bottom: 4rem;
 }
